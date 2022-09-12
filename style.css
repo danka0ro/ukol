@@ -1,0 +1,106 @@
+body {
+    color:  rgb(6, 84, 129);
+    background-color:rgb(192, 208, 228);
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+}
+
+.hlavicka {
+    padding: 150px 30px;
+    background-image: url(obrazky/hlavicka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(6, 84, 129);
+}
+
+.menu li {
+    display: inline-block;
+
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: rgb(105, 138, 156);
+}
+
+.foto-omne {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 30px 30px 30px;
+}
+
+h1 {
+    color: rgb(192, 208, 228);
+    
+    font-size: 80px;
+    margin: 0;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+h1,
+h2 {
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+}
+
+a { 
+    color:  rgb(6, 84, 129);
+    font-style: italic;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    text-align: left;
+    padding: 10px 0;
+    /*border-bottom: 1px solid rgb(6, 84, 129);*/
+
+}
+
+.paticka {
+    background-color: rgb(6, 84, 129);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.vzdelani,
+.prace {
+    background-color: rgb(157, 180, 207);
+}
+
+.uroven {
+    text-align: right;
+    padding-left: 50px;
+}
